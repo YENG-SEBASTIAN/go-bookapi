@@ -1,0 +1,34 @@
+# Binaries and build output
+/go-booksapi
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Vendor dependencies (if using `go mod vendor`)
+/vendor/
+
+# Logs and runtime files
+*.log
+*.tmp
+*.cache
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / config files
+.env
+*.local
+
+# Swagger generated files (can regenerate anytime)
+docs/
